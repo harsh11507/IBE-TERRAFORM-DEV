@@ -9,7 +9,7 @@ variable "team_name" {
 }
 
 variable "environment" {
-  description = "Environment name (e.g., dev, prod)"
+  description = "Environment name (e.g., Qa, prod)"
   type        = string
 }
 

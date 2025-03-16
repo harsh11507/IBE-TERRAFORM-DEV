@@ -1,4 +1,4 @@
 project_name = "IBE"
 team_name    = "runtime-error"
-environment  = "dev"
-alb_dns_name = "awseb--AWSEB-iyvk5c8F3av0-404968128.ap-south-1.elb.amazonaws.com"
+environment  = "Qa"
+alb_dns_name = "awseb--AWSEB-kZ27V76cu1jI-1514624638.ap-south-1.elb.amazonaws.com"

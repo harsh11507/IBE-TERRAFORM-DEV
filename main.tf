@@ -4,7 +4,7 @@ resource "aws_api_gateway_rest_api" "api" {
     types = ["REGIONAL"]
   }
   tags = {
-    Name      = "API Gateway Dev",
+    Name      = "API Gateway Qa",
     Project   = "Hotel Management System",
     Creator   = "Harsh"
   }
@@ -53,7 +53,7 @@ resource "aws_api_gateway_stage" "api" {
   stage_name    = var.environment
 
   tags = {
-    Name      = "API Gateway Dev",
+    Name      = "API Gateway Qa",
     Project   = "Hotel Management System",
     Creator   = "Harsh"
   }
